@@ -14,7 +14,7 @@ import java.security.PrivilegedAction;
  */
 public class WebSocketServer {
 
-    private final Logger log = Loggers.getLogger(WebSocketServer.class);
+    private final Logger log = Loggers.getLogger(WebSocketServer.class, "server");
     private final Server server;
 
     public WebSocketServer(int port) {

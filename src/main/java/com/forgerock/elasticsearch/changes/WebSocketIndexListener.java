@@ -23,7 +23,7 @@ import org.joda.time.DateTime;
  */
 public class WebSocketIndexListener implements IndexingOperationListener {
 
-    private final Logger log = Loggers.getLogger(WebSocketIndexListener.class);
+    private final Logger log = Loggers.getLogger(WebSocketIndexListener.class, "wsl");
 
     private final Set<Source> sources;
     private final List<String> filter;
