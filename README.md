@@ -5,6 +5,10 @@ websocket connection to an elasticsearch node and receive a feed of changes from
 
 Loosely based on https://github.com/derryx/elasticsearch-changes-plugin
 
+# Change in this fork
+
+**Add support of ES v7.7.0**
+
 ## Requirements
 
 * Elasticsearch 1.x, 2.x, 5.x, 6.x
